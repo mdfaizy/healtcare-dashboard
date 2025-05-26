@@ -1,0 +1,194 @@
+
+.header-icons{
+  width: auto;
+  text-align: end;
+  display: flex;
+  align-items: center;       
+  justify-content: flex-end;   
+  gap: 8px;                
+  padding: 1rem;
+  cursor: pointer;
+  color: #000; 
+   
+}
+.profile-pic {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.add-btn {
+  background: #2f2f7b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.calendarSection {
+  background-color: #f9fafe;
+  
+  padding: 10px;
+  border-radius: 20px;
+
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.calendarHeader h4 {
+  font-size: 18px;
+  color: #1e1e1e;
+  font-weight: 600;
+}
+
+.calendarArrows span {
+  font-size: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: #6b7280;
+  transition: color 0.2s;
+}
+
+.calendarArrows span:hover {
+  color: #4f46e5;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+}
+
+.calendarDaySlot {
+  padding: 0px 6px;
+}
+
+.calendarDay {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #111827;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendarDate {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 5px;
+  color: #1e1e1e;
+}
+
+.timeSlots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  text-align: center;
+}
+
+.slot {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #374151;
+  background-color: #f0f3ff;
+}
+
+.active {
+  background-color: #4338ca;
+  color: white;
+}
+
+
+.appointments {
+  display: flex;
+  flex-direction: row;
+  gap: 16px; 
+  margin-top: 10px;
+}
+
+
+.appointmentCard {
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+
+.dentist {
+  background-color: #4338ca;
+  color: white;
+  height: 80px;
+  width: 180px;
+}
+
+.physio {
+  background-color: #e0e7ff;
+  color: #1f2937;
+  height: 80px;
+  width: 250px;
+  justify-content: space-between;
+}
+
+
+.appointmentDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.detailsdr{
+  margin-bottom: 60px;
+}
+.drInfo {
+  margin-bottom: 50px;
+}
+
+.appointmentTitle {
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.appointmentTime {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.appointmentDoctor {
+  font-size: 12px;
+}
+
+.appointmentIcon {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 70px;
+  margin-left: -15px;
+  
+ 
+}
+
+.appointmentPhysio {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 70px;
+  margin-left: -110px;
+
+}
+
+
+  

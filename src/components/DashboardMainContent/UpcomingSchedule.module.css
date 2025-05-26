@@ -1,0 +1,51 @@
+.upcomingSchedule {
+  padding: 1rem;
+}
+
+.scheduleDay {
+  margin-bottom: 10px;
+}
+
+.appointmentsRow {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.simpleCard {
+  background: #f0f3ff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 200px;
+  flex: 1 1 200px;
+  box-sizing: border-box;
+}
+
+.upcomingTitleTime {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.apptTitle {
+  font-weight: 200;
+}
+
+.apptTime {
+  margin-right: auto;
+  color: #666;
+}
+@media (max-width: 768px) {
+  .appointmentsRow {
+    flex-direction: column;
+  }
+
+  .simpleCard {
+    width: 100%;
+    min-width: unset;
+  }
+}
