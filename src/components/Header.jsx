@@ -1,6 +1,6 @@
 
 import styles from './Header.module.css'; 
-
+import { FaPlus } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { FaBell } from "react-icons/fa";
 
@@ -14,6 +14,11 @@ const Header = () => {
         </div>
         <FaBell className={styles['bell-icon']} />
       </div>
+
+      <div className={styles['header-icons']}>
+                    <img src="https://i.pravatar.cc/40" alt="Profile" className={styles['profile-pic']} />
+                    <button className={styles['add-btn']}><FaPlus /></button>
+                  </div>
     </header>
   );
 };

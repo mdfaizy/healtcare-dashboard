@@ -1,6 +1,6 @@
 
 import styles from './CalendarView.module.css';
-import { FaPlus } from "react-icons/fa";
+
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 const calendarData = {
@@ -16,10 +16,7 @@ const calendarData = {
 const CalendarView = () => {
   return (
     <div className={styles.calendarSection}>
-        <div className={styles['header-icons']}>
-              <img src="https://i.pravatar.cc/40" alt="Profile" className={styles['profile-pic']} />
-              <button className={styles['add-btn']}><FaPlus /></button>
-            </div>
+        
       <div className={styles.calendarHeader}>
         <h4>October 2021</h4>
         <div className={styles.calendarArrows}>

@@ -12,14 +12,15 @@
 
 .rightPanel {
   width: auto;
-  height: 800px;
+  height: 750px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
 background-color: #f9fafe;
   padding: 20px;
   border-radius: 12px;
-  margin-top: -80px;
+  margin-top: 10px;
+
 }
 
 .dashboardTitle {
