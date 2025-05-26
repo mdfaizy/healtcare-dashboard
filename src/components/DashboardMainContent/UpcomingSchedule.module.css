@@ -1,5 +1,6 @@
 .upcomingSchedule {
   padding: 1rem;
+  width: 500px;
 }
 
 .scheduleDay {
@@ -13,13 +14,13 @@
 }
 
 .simpleCard {
-  background: #f0f3ff;
+   background: #f0f3ff;
   padding: 8px 12px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 12px;
-  min-width: 200px;
+  width: 200px;
   flex: 1 1 200px;
   box-sizing: border-box;
 }
@@ -29,6 +30,8 @@
   flex-direction: column;
   text-align: left;
   width: 100%;
+  /* width: 00px; */
+ 
 }
 
 .apptTitle {
