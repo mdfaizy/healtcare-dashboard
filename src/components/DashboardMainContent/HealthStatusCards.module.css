@@ -4,6 +4,7 @@
   gap: 16px;
   margin-top: 10px;
   justify-content: flex-start;
+  flex-direction: column;
 }
 
 .card {
@@ -11,14 +12,9 @@
   width: 180px;
   border-radius: 16px;
   padding: 16px;
- 
   transition: transform 0.2s ease;
-  flex: 1 1 180px;
+ 
   box-sizing: border-box;
-}
-
-.card:hover {
-  transform: translateY(-4px);
 }
 
 .statusHeader {

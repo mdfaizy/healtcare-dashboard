@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 .calendarSection {
-  background-color: #f9fafe;
+  /* background-color: #f9fafe; */
   
   padding: 10px;
   border-radius: 20px;
@@ -36,7 +36,7 @@
   /* width: 100%;
   max-width: 100%; */
   width: 550px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 .calendarHeader {
