@@ -1,7 +1,7 @@
 .dashboardContent {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .leftPanel {
   flex: 1;
