@@ -1,6 +1,8 @@
 
 import styles from './CalendarView.module.css';
 import { FaPlus } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 const calendarData = {
   Mon: ['10:00', '11:00', '12:00'],
   Tue: ['08:00', '09:00', '10:00'],
@@ -21,8 +23,8 @@ const CalendarView = () => {
       <div className={styles.calendarHeader}>
         <h4>October 2021</h4>
         <div className={styles.calendarArrows}>
-          <span>&lt;</span>
-          <span>&gt;</span>
+          <span><FaArrowLeft/></span>
+          <span><FaArrowRight/></span>
         </div>
       </div>
 
