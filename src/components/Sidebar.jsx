@@ -29,11 +29,11 @@ function Sidebar() {
 
   return (
     <div className={styles.app}>
-      {isMobile && !isOpen && (
+      {/* {isMobile && !isOpen && (
         <button className={styles['sidebar-toggle']} onClick={toggleSidebar} aria-label="Open sidebar">
           <FaBars />
         </button>
-      )}
+      )} */}
 
       <div className={`${styles.sidebar} ${isMobile ? (isOpen ? styles.open : styles.collapsed) : styles.open}`}>
         <div className={styles['sidebar-header']}>
