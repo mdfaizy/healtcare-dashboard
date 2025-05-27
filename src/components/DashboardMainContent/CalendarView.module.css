@@ -104,21 +104,22 @@
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  margin-left: 20px;
 }
 
 
 .dentist {
   background-color: #4338ca;
   color: white;
-  height: 80px;
+  height: 70px;
   width: 180px;
 }
 
 .physio {
   background-color: #e0e7ff;
   color: #1f2937;
-  height: 80px;
-  width: 250px;
+  height: 70px;
+  width: 300px;
   justify-content: space-between;
 }
 
@@ -149,6 +150,7 @@
 
 .appointmentDoctor {
   font-size: 12px;
+  width: 100%;
 }
 
 .appointmentIcon {
@@ -163,7 +165,7 @@
 .appointmentPhysio {
   width: 36px;
   height: 36px;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
   margin-left: -110px;
 
 }

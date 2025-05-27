@@ -1,8 +1,6 @@
-// navigation.js
-import { MdDashboard, MdOutlineSupportAgent } from "react-icons/md";
+import { MdDashboard} from "react-icons/md";
 import { AiOutlineHistory } from "react-icons/ai";
-import { BsCalendar3 } from "react-icons/bs";
-import { FaCheckCircle, FaComments } from "react-icons/fa";
+import {FaComments } from "react-icons/fa";
 import { IoStatsChartSharp } from "react-icons/io5";
 import { IoIosCall } from "react-icons/io";
 import { MdOutlineDateRange } from "react-icons/md";
